@@ -1,0 +1,186 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "binarySearch",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "comprehensiveTest",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNotFoundValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"name": "isFound",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testDuplicateElements",
+				"outputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "results",
+						"type": "uint256[2]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testEdgeCases",
+				"outputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "results",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testLargeArray",
+				"outputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "results",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testNormalSearch",
+				"outputs": [
+					{
+						"internalType": "uint256[4]",
+						"name": "results",
+						"type": "uint256[4]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"comprehensiveTest()": {
+					"notice": "综合测试示例"
+				},
+				"getNotFoundValue()": {
+					"notice": "实用函数：获取\"未找到\"的标志值"
+				},
+				"isFound(uint256)": {
+					"notice": "实用函数：检查值是否找到"
+				},
+				"testDuplicateElements()": {
+					"notice": "测试例子4：重复元素（返回任意一个匹配的索引）"
+				},
+				"testEdgeCases()": {
+					"notice": "测试例子2：边界情况"
+				},
+				"testLargeArray()": {
+					"notice": "测试例子3：较大数组"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BinarySearch.sol": "BinarySearch"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BinarySearch.sol": {
+			"keccak256": "0x06e7c7e12a67bfd3a01417949153584b198fbe1039fcdacde02732f595f117da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cad4ade57b040232c90a6f89a12b2d2b95e4896c70cbf705b481ced50a4c4901",
+				"dweb:/ipfs/QmeSgrLobpswXYdHMRUvPuQjS4v4nNtrhSbuPvkgLxLkAP"
+			]
+		}
+	},
+	"version": 1
+}
