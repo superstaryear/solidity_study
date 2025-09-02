@@ -36,7 +36,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 5. 查看 NFT
   - 打开 OpenSea 测试网 或 Etherscan 测试网。
   - 连接你的钱包，查看你铸造的 NFT。
-  https://eth-sepolia.blockscout.com/tx/0x5c62269b7a7727f6e7f01b4f1c7819dac81d74e9b7f8bcb5f8d55727f5e5992f
+  图片地址：          https://brown-given-guanaco-730.mypinata.cloud/ipfs/bafkreigx236ravmrbddicdflsyxidpob34rwdofog2j6wvygmb57zst24e
+  测试区块链交易地址： https://eth-sepolia.blockscout.com/tx/0x5c62269b7a7727f6e7f01b4f1c7819dac81d74e9b7f8bcb5f8d55727f5e5992f
 */
 
 // 继承 ERC721URIStorage 而不是 ERC721
